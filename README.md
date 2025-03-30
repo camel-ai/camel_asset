@@ -28,8 +28,8 @@ If you need to add or update assets, please follow these steps:
 
 ## Contact
 
-For questions regarding brand assets, please contact [your contact information].
+For questions regarding brand assets, please contact camel-ai@eigent.ai.
 
 ## License
 
-All rights reserved. These assets are proprietary and confidential. 
+CAMEL-AI All rights reserved. These assets are proprietary and confidential. 
