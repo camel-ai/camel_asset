@@ -2,8 +2,9 @@
   <img
     src="https://camel-ai.github.io/camel_asset/graphics/camel_ai_banner.png"
   />
+</h3>
 
-<br>
+<h3 align="center">
 
 [![Discord][discord-image]][discord-url]
 [![X][x-image]][x-url]
@@ -11,17 +12,13 @@
 [![Wechat][wechat-image]][wechat-url]
 [![Hugging Face][huggingface-image]][huggingface-url]
 
-<br>
-
-Hello, AI enthusiasts! 你好，AI爱好者们!  مرحبًا بمحبّي الذكاء الاصطناعي!
+Hello, AI enthusiasts! 你好，AI 爱好者们! مرحبًا بمحبّي الذكاء الاصطناعي!
 
 <a href="./README.md"><img alt="README in English" src="https://img.shields.io/badge/English-d9d9d9"></a>
 <a href="./README_CN.md"><img alt="简体中文版自述文件" src="https://img.shields.io/badge/简体中文-d9d9d9"></a>
 <a href="./README_AR.md"><img alt="README بالعربية" src="https://img.shields.io/badge/العربية-d9d9d9"></a>
 
 </h3>
-
-<br>
 
 ---
 
