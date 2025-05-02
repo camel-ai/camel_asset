@@ -43,18 +43,17 @@ We're creating the infrastructure from frameworks to applications. Although we'r
 <p>
 
 ## Contact Us
-Join us at [CAMEL-AI.org](http://camel-ai.org/) to help shape that future.
-For more information please contact camel-ai@eigent.ai
-
-- **GitHub Issues:** Report bugs, request features, and track development. [Submit an issue](https://github.com/camel-ai/camel/issues)
+Join us at [CAMEL-AI.org](http://camel-ai.org/) to help shape that future. For more information please contact camel-ai@eigent.ai
 
 - **Discord:** Get real-time support, chat with the community, and stay updated. [Join us](https://discord.camel-ai.org/)
 
+- **WeChat Community:** Scan the QR code below to join our [WeChat community](https://ghli.org/camel/wechat.png).
+
 - **X (Twitter):** Follow for updates, AI insights, and key announcements. [Follow us](https://x.com/CamelAIOrg)
 
-- **Ambassador Project:** Advocate for CAMEL-AI, host events, and contribute content. [Learn more](https://www.camel-ai.org/community)
+- **GitHub Issues:** Report bugs, request features, and track development. [Submit an issue](https://github.com/camel-ai/camel/issues)
 
-- **WeChat Community:** Scan the QR code below to join our [WeChat community](https://ghli.org/camel/wechat.png).
+- **Ambassador Project:** Advocate for CAMEL-AI, host events, and contribute content. [Learn more](https://www.camel-ai.org/community)
 
 [huggingface-url]: https://huggingface.co/camel-ai
 [huggingface-image]: https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-CAMEL--AI-ffc107?color=ffc107&logoColor=white
