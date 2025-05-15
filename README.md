@@ -1,4 +1,4 @@
-# Camel Brand Assets Repository
+# CAMEL Brand Assets Repository
 
 This repository stores assets related to Camel's video and graphics branding content.
 
