@@ -35,7 +35,7 @@ export default function StackItem({
 }: StackItemProps) {
   // Construct the full logo path using the title as subdirectory
   const titleLower = title ? title.toLowerCase().replace(/\s+/g, '-') : '';
-  const fullLogoPath = showLogo && id && titleLower ? `https://camel-ai.github.io/camel_asset/public/logos/${titleLower}/${id}.svg` : null;
+  const fullLogoPath = showLogo && id && titleLower ? `https://camel-ai.github.io/camel_asset/logos/${titleLower}/${id}.svg` : null;
   
   // Special styling for logo-only items
   const isLogoOnly = showLogo && !showText;
