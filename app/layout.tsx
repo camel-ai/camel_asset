@@ -19,13 +19,13 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://mcp.camel-ai.org'),
+  metadataBase: new URL('https://camel-ai.github.io/camel_asset'),
   title: {
-    default: "CAMEL-AI MCP Hub – Official MCP Servers & Integrations",
-    template: "%s | CAMEL-AI MCP Hub"
+    default: "CAMEL Asset Hub",
+    template: "%s | CAMEL Asset Hub"
   },
-  description: "Explore CAMEL-AI's MCP Hub: your directory of official MCP (Model Context Protocol) servers and integrations designed to supercharge AI agents and multi-agent workflows.",
-  keywords: ["mcp servers", "ai agents", "model context protocol", "mcp client", "CAMEL-AI", "MCP Hub", "integrations"],
+  description: "Explore CAMEL-AI's Asset Hub: A comprehensive collection of AI tools, models, and resources.",
+  keywords: ["camel-ai", "ai tools", "models", "resources", "asset hub"],
   authors: [{ name: "Camel-AI.org" }],
   creator: "Camel-AI.org",
   publisher: "Camel-AI.org",
@@ -36,14 +36,14 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
-      { url: 'https://camel-ai.github.io/camel_asset/mcp/favicon.ico', sizes: '32x32' },
-      { url: 'https://camel-ai.github.io/camel_asset/mcp/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: 'https://camel-ai.github.io/camel_asset/mcp/favicon-32x32.png', sizes: '32x32', type: 'image/png' }
+      { url: '/favicon.ico', sizes: '32x32' },
+      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
+      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' }
     ],
     apple: [
-      { url: 'https://camel-ai.github.io/camel_asset/mcp/apple-icon.png', sizes: '180x180', type: 'image/png' }
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }
     ],
-    shortcut: 'https://camel-ai.github.io/camel_asset/mcp/favicon.ico'
+    shortcut: '/favicon.ico'
   },
   robots: {
     index: true,
@@ -52,22 +52,22 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_UK",
-    url: "https://mcp.camel-ai.org",
-    title: "CAMEL-AI MCP Hub – Official MCP Servers & Integrations",
-    description: "Explore CAMEL-AI's MCP Hub: your directory of official MCP (Model Context Protocol) servers and integrations designed to supercharge AI agents and multi-agent workflows.",
-    siteName: "CAMEL-AI MCP Hub",
+    url: "https://camel-ai.github.io/camel_asset",
+    title: "CAMEL Asset Hub",
+    description: "Explore CAMEL-AI's Asset Hub: A comprehensive collection of AI tools, models, and resources.",
+    siteName: "CAMEL Asset Hub",
   },
   twitter: {
     card: "summary_large_image",
-    title: "CAMEL-AI MCP Hub – Official MCP Servers & Integrations",
-    description: "Explore CAMEL-AI's MCP Hub: your directory of official MCP (Model Context Protocol) servers and integrations designed to supercharge AI agents and multi-agent workflows.",
+    title: "CAMEL Asset Hub",
+    description: "Explore CAMEL-AI's Asset Hub: A comprehensive collection of AI tools, models, and resources.",
     creator: "@CamelAIOrg",
     images: [
       {
-        url: "https://camel-ai.github.io/camel_asset/mcp/twitter-card.png",
+        url: "/twitter-card.png",
         width: 1200,
         height: 628,
-        alt: "CAMEL-AI MCP Hub - Official MCP Servers & Integrations"
+        alt: "CAMEL Asset Hub"
       }
     ],
     site: "@CamelAIOrg"

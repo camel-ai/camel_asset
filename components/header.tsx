@@ -6,7 +6,7 @@ export function Header() {
     <header className="pt-16">
       <div className="flex flex-row items-center justify-between text-center w-full max-w-[1600px] mx-auto gap-4">
       <Image
-          src="https://camel-ai.github.io/camel_asset/logo/camel_logo.svg"
+          src="/logo/camel_logo.svg"
           alt="CAMEL AI Logo"
           className="-ml-4"
           width={240}
