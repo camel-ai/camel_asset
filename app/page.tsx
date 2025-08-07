@@ -11,7 +11,7 @@ function HomeContent() {
       <div 
         className="absolute inset-0"
         style={{
-          backgroundImage: 'url(/techstack.jpg)',
+          backgroundImage: 'url(./techstack.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -19,7 +19,6 @@ function HomeContent() {
           opacity: 0.2
         }}
       ></div>
-
 
       
       {/* Content with relative positioning to appear above background */}

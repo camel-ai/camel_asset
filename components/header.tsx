@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export function Header() {
   return (
-    <header className="pt-16">
+    <header className="pt-16 max-w-[1200px]">
       <div className="flex flex-row items-center justify-between text-center w-full max-w-[1600px] mx-auto gap-4">
       <Image
           src="/logo/camel_logo.svg"

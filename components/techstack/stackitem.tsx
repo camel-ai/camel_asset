@@ -33,7 +33,7 @@ export default function StackItem({
   showText = true,
   logoPath = 'logos'
 }: StackItemProps) {
-  const fullLogoPath = showLogo && id ? `/${logoPath}/${id}.svg` : null;
+  const fullLogoPath = showLogo && id ? `./${logoPath}/${id}.svg` : null;
   
   // Special styling for logo-only items
   const isLogoOnly = showLogo && !showText;
