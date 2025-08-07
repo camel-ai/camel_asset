@@ -64,14 +64,12 @@ function TechStackContent() {
           title={modelsData.title}
           items={modelsData.items}
           variant={models.variant as "green"}
-          logoPath="logos/models"
         />
         {/* Tools Section */}
         <StackSection
           title={tools.title}
           items={tools.items}
           variant={tools.variant as "yellow"}
-          logoPath="logos/tools"
         />
         {/* Memories Section */}
         <StackSection
@@ -84,14 +82,12 @@ function TechStackContent() {
           title={storage.title}
           items={storage.items}
           variant={storage.variant as "orange"}
-          logoPath="logos/storage"
         />
         {/* Data Loaders Section */}
         <StackSection 
           title={dataLoaders.title}
           items={dataLoaders.items}
           variant={dataLoaders.variant as "grey"}
-          logoPath="logos/loaders"
         />
         {/* Environments Section */}
         <StackSection 
@@ -104,7 +100,6 @@ function TechStackContent() {
           title={interpreters.title}
           items={interpreters.items}
           variant={interpreters.variant as "grey"}
-          logoPath="logos/interpreters"
         />
         {/* Retrievers Section */}
         <StackSection 
@@ -117,7 +112,6 @@ function TechStackContent() {
           title={runtime.title}
           items={runtime.items}
           variant={runtime.variant as "grey"}
-          logoPath="logos/run-time"
         />
         {/* Verifier Section */}
         <StackSection 
@@ -136,19 +130,17 @@ function TechStackContent() {
           title={humanInTheLoop.title}
           items={humanInTheLoop.items}
           variant={humanInTheLoop.variant as "blue"}
-          logoPath="logos/human-in-the-loop"
         />
         {/* Observe Section */}
         <StackSection 
           title={observe.title}
           items={observe.items}
           variant={observe.variant as "blue"} 
-          logoPath="logos/observe"
         />  
       </div>
       <div className="flex flex-col items-center justify-center py-4 text-sm font-bold text-neon-700 italic">updated on July 18, 2025</div>
     </div>
   );
-  }
+}
 
 export default TechStackContent;

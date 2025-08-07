@@ -8,7 +8,7 @@ interface StackItemProps {
   id?: string
   showLogo?: boolean
   showText?: boolean
-  logoPath?: string
+  title?: string
 }
 
 const colorVariants = {
@@ -29,11 +29,13 @@ export default function StackItem({
   variant = 'neon', 
   onClick,
   id,
+  title,
   showLogo = false,
-  showText = true,
-  logoPath = 'logos'
+  showText = true
 }: StackItemProps) {
-  const fullLogoPath = showLogo && id ? `./${logoPath}/${id}.svg` : null;
+  // Construct the full logo path using the title as subdirectory
+  const titleLower = title ? title.toLowerCase().replace(/\s+/g, '-') : '';
+  const fullLogoPath = showLogo && id && titleLower ? `https://camel-ai.github.io/camel_asset/public/logos/${titleLower}/${id}.svg` : null;
   
   // Special styling for logo-only items
   const isLogoOnly = showLogo && !showText;

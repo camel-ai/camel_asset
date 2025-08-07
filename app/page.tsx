@@ -11,7 +11,7 @@ function HomeContent() {
       <div 
         className="absolute inset-0"
         style={{
-          backgroundImage: 'url(./techstack.jpg)',
+          backgroundImage: 'url(https://camel-ai.github.io/camel_asset/public/techstack.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

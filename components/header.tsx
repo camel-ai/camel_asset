@@ -3,10 +3,10 @@ import Image from "next/image"
 
 export function Header() {
   return (
-    <header className="pt-16 max-w-[1200px]">
-      <div className="flex flex-row items-center justify-between text-center w-full max-w-[1600px] mx-auto gap-4">
+    <header className="flex flex-col items-center justify-center pt-16 max-w-[1200px] mx-auto">
+      <div className="flex flex-col items-center justify-between text-center w-full max-w-[1600px] mx-auto gap-4 md:flex-row lg:flex-row">
       <Image
-          src="/logo/camel_logo.svg"
+          src="https://camel-ai.github.io/camel_asset/logo/camel_logo.svg"
           alt="CAMEL AI Logo"
           className="-ml-4"
           width={240}

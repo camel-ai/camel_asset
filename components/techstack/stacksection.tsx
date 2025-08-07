@@ -15,7 +15,6 @@ export interface StackSectionProps {
   items: StackItemData[]
   variant?: 'neon' | 'green' | 'yellow' | 'purple' | 'pink' | 'orange' | 'grey' | 'blue' | 'red' | 'bone'
   className?: string
-  logoPath?: string
 }
 
 const backgroundColorVariants = {
@@ -49,8 +48,7 @@ export default function StackSection({
   subtitle, 
   items, 
   variant = 'neon',
-  className = '',
-  logoPath = 'logos'
+  className = ''
 }: StackSectionProps) {
   return (
     <div className={`flex flex-col lg:flex-row py-4 ${className}`}>
@@ -75,9 +73,9 @@ export default function StackSection({
               variant={variant}
               onClick={item.onClick}
               id={item.id}
+              title={title}
               showLogo={item.logo || false}
               showText={item.showText !== false}
-              logoPath={logoPath}
             >
               {item.name}
             </StackItem>
