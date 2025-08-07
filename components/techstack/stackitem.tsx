@@ -33,9 +33,24 @@ export default function StackItem({
   showLogo = false,
   showText = true
 }: StackItemProps) {
-  // Construct the full logo path using the title as subdirectory
-  const titleLower = title ? title.toLowerCase().replace(/\s+/g, '-') : '';
-  const fullLogoPath = showLogo && id && titleLower ? `https://camel-ai.github.io/camel_asset/logos/${titleLower}/${id}.svg` : null;
+  // Map section titles to directory names
+  const getLogoPath = (sectionTitle: string) => {
+    const titleMap: { [key: string]: string } = {
+      'Models': 'models',
+      'Tools': 'tools',
+      'Storage': 'storage',
+      'Data Loaders': 'loaders',
+      'Interpreters': 'interpreters',
+      'Run Time': 'run-time',
+      'Human in the Loop': 'human-in-the-loop',
+      'Observe': 'observe'
+    };
+    return titleMap[sectionTitle] || sectionTitle.toLowerCase().replace(/\s+/g, '-');
+  };
+  
+  // Construct the full logo path using the mapped directory name
+  const logoDir = title ? getLogoPath(title) : '';
+  const fullLogoPath = showLogo && id && logoDir ? `https://camel-ai.github.io/camel_asset/logos/${logoDir}/${id}.svg` : null;
   
   // Special styling for logo-only items
   const isLogoOnly = showLogo && !showText;

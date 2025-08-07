@@ -35,6 +35,14 @@ function TechStackContent() {
     }))
   };
 
+  const storageData = {
+    ...storage,
+    items: storage.items.map(item => ({
+      ...item,
+      onClick: () => handleItemClick(item)
+    }))
+  };
+
 
   return (
     <div className="flex-1 w-full max-w-[1200px] mx-auto py-8">
@@ -79,9 +87,10 @@ function TechStackContent() {
         />
         {/* Storage Section */}
         <StackSection
-          title={storage.title}
-          items={storage.items}
-          variant={storage.variant as "orange"}
+          title={storageData.title}
+          items={storageData.items}
+          variant={storageData.variant as "orange"}
+          grouped={true}
         />
         {/* Data Loaders Section */}
         <StackSection 
