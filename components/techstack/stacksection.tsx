@@ -89,11 +89,11 @@ export default function StackSection({
         
         {/* Grouped Items Layout */}
         <div className="lg:w-4/5 flex-1">
-          <div className={`border border-white rounded-tr-xl backdrop-blur-sm rounded-b-xl ${backgroundColorVariants[variant]}`}>
+          <div className={`border border-white rounded-tr-xl backdrop-blur-sm rounded-b-xl p-4 ${backgroundColorVariants[variant]}`}>
             {subcategories.map((subcategory, groupIndex) => (
-              <div key={subcategory} className={`${groupIndex > 0 ? 'flex flex-row mt-6 pt-6' : ''}`}>
+              <div key={subcategory} className={`${groupIndex > 0 ? 'flex flex-col mt-6 pt-6 border-t border-white/20' : ''}`}>
                 {/* Subcategory Title */}
-                <h4 className="font-palatino text-base font-bold text-black-900 pr-4">
+                <h4 className="font-palatino text-lg font-bold text-black-800 mb-3">
                   {subcategory}:
                 </h4>
                 {/* Items in this subcategory */}
