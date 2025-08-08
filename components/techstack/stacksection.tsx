@@ -91,9 +91,9 @@ export default function StackSection({
         <div className="lg:w-4/5 flex-1">
           <div className={`border border-white rounded-tr-xl backdrop-blur-sm rounded-b-xl p-4 ${backgroundColorVariants[variant]}`}>
             {subcategories.map((subcategory, groupIndex) => (
-              <div key={subcategory} className={`${groupIndex > 0 ? 'flex flex-rowmt-6 pt-6 border-t border-white/20' : ''}`}>
+              <div key={subcategory} className={`${groupIndex > 0 ? 'flex flex-row mt-6 pt-6 border-t border-white/20' : ''}`}>
                 {/* Subcategory Title */}
-                <h4 className="font-palatino text-lg font-bold text-black-800 mb-3">
+                <h4 className="font-palatino text-lg font-bold text-black-800">
                   {subcategory}:
                 </h4>
                 {/* Items in this subcategory */}
